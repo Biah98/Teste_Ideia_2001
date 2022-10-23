@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #444242;
+    padding: 12px;
+}
+.voltar{
+    margin-top: 10px;
+}
+.carrinho-menu{
+    margin-top: 10px;
+}
+
+.body{
+    min-width: 250px;
+    width: 100%;
+    text-align:left;
+}
+
+.contato{
+    background-color: #F2F2F2;
+    color: #FA9401;
+    padding: 15px;
+}
+
+.lista-contato{
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+#item{
+    border-bottom: 1px solid #E8E8E8;
+    padding: 16px;
+}
+
+#item-img{
+    margin-right: 5px;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 15px;
+
+    min-width: 50px;
+    width: 100%;
+}
+
+.rodape{
+    position: absolute;
+	bottom: 0;
+
+    text-align: center;
+
+    min-width: 250px;
+    width: 100%;
+
+    height: auto;
+
+    background-color: #FA9401;
+    color: #FFFF;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
